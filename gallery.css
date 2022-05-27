@@ -1,0 +1,17 @@
+.gallery{
+	background:#eaeae1;
+	width: 1000px;
+	font-family: arial;
+	line-height: 2;
+	height: 1300px;
+	font-size:18;
+	color: #4d9900;
+	letter-spacing: 1;
+	baseline-shift: 1;
+
+}
+img:hover{
+  transform: scale(1.5,1.5);
+  transition: .2s transform;
+
+}

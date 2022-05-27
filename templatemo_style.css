@@ -1,0 +1,228 @@
+/*
+Credit: http://www.templatemo.com
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.1)), url('kerala.jpg'); 
+    background-size: 1920px 200vh;
+}
+
+a:link, a:visited { color: #71950f; text-decoration: none; font-weight: normal;	} 
+a:active, a:hover { color: #990000; text-decoration: underline;	}
+
+
+
+
+#templatemo_wrapper_outter {
+	width: 100%;
+	margin: 0 auto;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.1)), url('kerala.jpg')  top center no repeat;
+}
+
+#templatemo_wrapper_inner {
+	width: 1000px;
+	margin: 0 auto;	
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.1)), url('kerala.jpg') top center no-repeat;
+}
+
+#templatemo_wrapper {
+	width: 980px;
+	padding: 0 10px;
+	background: url(images/template_content.png) repeat-y center;
+}
+
+#templatemo_container {
+	width: 980px;
+	height: 980px;
+	padding: 30px 0;
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,.1)),url('kerala.jpg') ;
+	background-size:;
+}
+
+#templatemo_header {
+	padding: 0 30px;
+}
+
+#templatemo_header #header_left {
+	float: left;
+	width: 570px;
+	height: 250px;
+}
+
+/* menu */
+#header_left #templatemo_menu {
+	clear: both;
+	width: 564px;	
+	height: 44px;
+	background: url(images/templatemo_menu.png) no-repeat;
+	background-position: right;
+}
+
+#templatemo_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#templatemo_menu ul li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+#templatemo_menu ul li a {
+	float: left;
+	display: block;
+	height: 20px;
+	padding: 12px 20px;
+	margin-right: 10px;
+	text-align: center;
+	font-size: 14px;
+	text-decoration: none;
+	color: #00CCFF;	
+	font-weight: bold;
+	outline: none;
+}
+
+
+ #header_left  #site_title {
+	float: left;
+	width: 400px;
+	margin: 30px 0 0 40px;
+}
+
+#site_title h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#site_title h1 a {
+	margin: 0px;
+	padding: 0px;
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#site_title h1 a:hover {
+	font-weight: bold;	
+	text-decoration: none;
+}
+
+#site_title h1 a span {
+	display: block;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 14px;
+	color: #666;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+/* end of site title */
+
+
+
+/* content */
+
+#templatemo_content_wrapper {
+	clear: both;
+	padding: 0 30px 0 15px;
+	margin-bottom: 20px;
+}
+
+#templatemo_content_outer {
+	float: left;	
+	width: 630px;
+	padding: 30px 0 0 0;
+	background: url(images/templatemo_main_content_top.png) no-repeat top center;
+	
+}
+
+#templatemo_content {
+	padding: 0 40px 20px 40px;
+	background: url(images/templatemo_main_content_middle.png) repeat-y center;
+}
+
+#templatemo_content h2 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 0 15px 0;
+	color: #71950f;
+}
+
+#templatemo_content .content_section {
+	clear: both;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #666;
+}
+
+#templatemo_content p {
+	margin-bottom: 10px;
+}
+
+#templatemo_content .em_text {
+	color: #0d2d4b;
+}
+
+ul{
+	list-style: none;
+	float: left;
+}
+
+
+#templatemo_content_bottom {
+	display: block;
+	width: 630px;
+	height: 5px;
+	background: url(images/c.png) no-repeat bottom center;
+}
+/* end of content */
+
+
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.info{
+	background:#eaeae1;
+	width: 1000px;
+	font-family: arial;
+	line-height: 2;
+	height: 800px;
+	font-size:18;
+	color: #4d9900;
+	letter-spacing: 1;
+	baseline-shift: 1;
+
+}
